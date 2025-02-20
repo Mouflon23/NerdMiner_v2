@@ -1,8 +1,8 @@
-# NerdSoloMiner
+# NerdSoloMiner for Pico
 
-**The NerdSoloMiner v2**
+## The NerdSoloMiner for Pico
 
-This is a **free and open source project** that let you try to reach a bitcoin block with a small piece of hardware.
+This is a **free and open source project** that let you try to reach a bitcoin block with a Raspberry Pi.
 
 The main aim of this project is to let you **learn more about minery** and to have a beautiful piece of hardware in your desktop.
 
