@@ -2,30 +2,22 @@
 
 ## The NerdSoloMiner for Pico
 
-This is a **free and open source project** that let you try to reach a bitcoin block with a Raspberry Pi.
+This is a **free and open source project** that let you try to reach a bitcoin block with a Raspberry Pi Pico W.
 
 The main aim of this project is to let you **learn more about minery** and to have a beautiful piece of hardware in your desktop.
 
-Original project https://github.com/valerio-vaccaro/HAN
-
-![image](images/bgNerdMinerV2.png)
+Original project https://github.com/valerio-vaccaro/HAN and https://github.com/BitMaker-hub/NerdMiner_v2
 
 ## Requirements
 
-- TTGO T-Display S3 or any supported boards (check Build tutorial 👇)
-- 3D BOX [here](3d_files/)
+- Raspberry Pi Pico W
 
 ### Project description
 
-**ESP32 implementing Stratum protocol** to mine on solo pool. Pool can be changed but originally works with [public-pool.io](https://web.public-pool.io) (where Nerdminers are supported).
+**Raspberry pi implementing Stratum protocol** to mine on solo pool. Pool can be changed but originally works with [public-pool.io](https://web.public-pool.io) (where Nerdminers are supported).
 
-This project was initialy developed using ESP32-S3, but currently support other boards. It uses WifiManager to modify miner settings and save them to SPIFF.
+This project was initialy developed using Raspberry Pi.
 The microMiner comes with several screens to monitor it's working procedure and also to show you network mining stats.
-Currently includes:
-
-- NerdMiner Screen > Mining data of Nerdminer
-- ClockMiner Screen > Fashion style clock miner
-- GlobalStats Screen > Global minery stats and relevant data
 
 This miner is multicore and multithreads, both cores are used to mine and several threads are used to implementing stratum work and wifi stuff.
 Every time an stratum job notification is received miner update its current work to not create stale shares.
@@ -38,30 +30,11 @@ Every time an stratum job notification is received miner update its current work
 
 ### Hardware requirements
 
-- LILYGO T-Display S3 (original one) or any other supported boards
-- 3D BOX [here](3d_files/)
+- Raspberry Pi Pico W
 
 #### Current Supported Boards
 
-- LILYGO T-Display S3 ([Aliexpress link\*](https://s.click.aliexpress.com/e/_Ddy7739))
-- ESP32-WROOM-32, ESP32-Devkit1.. ([Aliexpress link\*](https://s.click.aliexpress.com/e/_DCzlUiX))
-- LILYGO T-QT pro ([Aliexpress link\*](https://s.click.aliexpress.com/e/_DBQIr43))
-- LILYGO T-Display 1.14 ([Aliexpress link\*](https://s.click.aliexpress.com/e/_DEqGvSJ))
-- LILYGO T-Display S3 AMOLED ([Aliexpress link\*](https://s.click.aliexpress.com/e/_DmOIK6j))
-- LILYGO T-Display S3 AMOLED Touch ([Board Info](https://www.lilygo.cc/products/t-display-s3-amoled?variant=43532279939253))
-- LILYGO T-Dongle S3 ([Aliexpress link\*](https://s.click.aliexpress.com/e/_DmQCPyj))
-- ESP32-2432S028R 2,8" ([Aliexpress link\*](https://s.click.aliexpress.com/e/_DdXkvLv) / Dev support: @nitroxgas / ⚡jadeddonald78@walletofsatoshi.com)
-- ESP32-cam ([Board Info](https://lastminuteengineers.com/getting-started-with-esp32-cam/) / Dev support: @elmo128)
-- M5-StampS3 ([Aliexpress link\*](https://s.click.aliexpress.com/e/_DevABY3) / Dev support: @gyengus)
-- Wemos Lolin S3 Mini ([Board Info](https://docs.platformio.org/en/latest/boards/espressif32/lolin_s3_mini.html))
-- Wemos Lolin S2 Mini ([Board Info](https://docs.platformio.org/en/latest/boards/espressif32/lolin_s2_mini.html))
-- Weact S3 Mini ([Board Info](https://github.com/WeActStudio/WeActStudio.ESP32S3-MINI))
-- Weact ESP32-D0WD-V3 ([Board Info](https://github.com/WeActStudio/WeActStudio.ESP32CoreBoard))
-- ESP32-S3 Devkit ([Board Info](https://docs.platformio.org/en/latest/boards/espressif32/esp32-s3-devkitm-1.html))
-- ESP32-C3 Devkit ([Board Info](https://docs.platformio.org/en/latest/boards/espressif32/esp32-c3-devkitm-1.html))
-- ESP32-C3 Super Mini ([Board Info](https://docs.platformio.org/en/latest/boards/espressif32/seeed_xiao_esp32c3.html))
-- Waveshare ESP32-S3-GEEK ([Board Info](https://www.waveshare.com/wiki/ESP32-S3-GEEK))
-- LILYGO T-HMI ([Aliexpress link\*](https://s.click.aliexpress.com/e/_oFII4s2)) / Dev support: @cosmicpsyop
+- None
 
 \*Affiliate links
 
